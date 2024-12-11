@@ -1,4 +1,4 @@
-import requests
+import requests, sys
 import hashlib
 import tarfile, zipfile, io, glob, json, vt, os, time, datetime
 from dotenv import load_dotenv
@@ -7,6 +7,8 @@ from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 
 load_dotenv()
+
+OUTFILE = 'ngrok-binaries.json'
 
 def download_and_hash(url):
     response = requests.get(url)
@@ -75,20 +77,53 @@ def getVTScore(sha256):
     except:
         return {}
 
+def fetchReleaseDates():
+    URL = "https://ngrok.com/docs/agent/changelog/"
+    page = requests.get(URL)
+    soup = BeautifulSoup(page.content, "html.parser")
+    results = soup.find_all("h3", class_="anchor anchorWithStickyNavbar_io45")
+    releases = {}
+    for result in results:
+        version = result.text.strip().split()[2]
+        if version < '3':
+            continue
+        the_date = result.text.strip().split('[')[1].split(']')[0]
+        if version >= '4':
+            version = result.text.strip().split()[3]
+            the_date = result.text.strip().split('[')[2].split(']')[0]
+        releases[version] = the_date
+    releases['3.14.1'] = '2024-08-22'
+    releases['3.0.0-rc1'] = ''
+    return releases
+
+def fetchReleasesFromFile():
+    if os.path.exists(OUTFILE):
+        with open(OUTFILE) as f:
+            d = json.load(f)
+            return d
+    return []
+
+release_dates = fetchReleaseDates()
+print(release_dates)
+
 URL = "https://dl.equinox.io/ngrok/ngrok-v3/stable/archive"
 page = requests.get(URL)
-
 soup = BeautifulSoup(page.content, "html.parser")
-
 results = soup.find_all("div", class_="release")
 
-binaries = []
+binaries = fetchReleasesFromFile()
+already_processed = {}
+for binary in binaries:
+    already_processed[binary['version']] = True
 
 for result in results:
   release = {}
   version = result.find("h2").text.strip().split()[1]
+  if version in already_processed:
+      print("Version {} already processed. Skipping.".format(version))
+      continue
   release["version"] = version
-  release["release_date"] = ""
+  release["release_date"] = release_dates[version]
   release["platforms"] = []
   archives = result.find_all("div", class_="platform archive")
   for archive in archives:
@@ -126,4 +161,8 @@ for result in results:
         }
       )
   binaries.append(release)
-print(json.dumps(binaries))
+
+print(json.dumps(binaries,indent=2))
+
+with open(OUTFILE, 'w') as filetowrite:
+    filetowrite.write(json.dumps(binaries,indent=2))
