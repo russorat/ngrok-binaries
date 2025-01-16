@@ -81,8 +81,9 @@ def fetchReleaseDates():
     URL = "https://ngrok.com/docs/agent/changelog/"
     page = requests.get(URL)
     soup = BeautifulSoup(page.content, "html.parser")
-    results = soup.find_all("h3", class_="anchor anchorWithStickyNavbar_io45")
+    results = soup.find_all("h3", class_="anchor anchorWithStickyNavbar_cCmd")
     releases = {}
+    print(results)
     for result in results:
         version = result.text.strip().split()[2]
         if version < '3':

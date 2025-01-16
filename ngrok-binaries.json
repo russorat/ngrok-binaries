@@ -13440,5 +13440,331 @@
         "binary_hash": "20a2eec09988e96f93e73575d75b810d9c0cfbe82f328bcd08fd192d7aedf4ab"
       }
     ]
+  },
+  {
+    "version": "3.19.0",
+    "release_date": "2024-12-19",
+    "platforms": [
+      {
+        "platform": "darwin",
+        "arch": "ARM64",
+        "archive_url": "https://bin.equinox.io/a/eJohZTvBLnb/ngrok-v3-3.19.0-darwin-arm64.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "80c396eaa9a394cf44bad4951f5c0f814381179c8d7a0e3cb5932b5899b7198d",
+        "binary_hash": "7f027d0c71d15b554e3f1399defdc0e7258939f223ab11867a13d6e829cdfc93"
+      },
+      {
+        "platform": "darwin",
+        "arch": "64-bit",
+        "archive_url": "https://bin.equinox.io/a/jdJnspmmnXP/ngrok-v3-3.19.0-darwin-amd64.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "be663c3d1f8a6bd2dafd8e9400858c2da87bd2a327fd1903dc8a07c3f8002bd2",
+        "binary_hash": "e8049f126f11274d1d19046504c998486598158ab87db6c2bdf38dbe47508868"
+      },
+      {
+        "platform": "darwin",
+        "arch": "64-bit",
+        "archive_url": "https://bin.equinox.io/a/59HYdr4iC4K/ngrok-v3-3.19.0-darwin-amd64.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "12b3dfdbadbf7fc7ab026f6350b80f5e41458105fe8fbece37d2f0005494dcfe",
+        "binary_hash": "e8049f126f11274d1d19046504c998486598158ab87db6c2bdf38dbe47508868"
+      },
+      {
+        "platform": "darwin",
+        "arch": "ARM64",
+        "archive_url": "https://bin.equinox.io/a/6eUJ9CKgUtA/ngrok-v3-3.19.0-darwin-arm64.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "cd8675fd3f89160b36c4fc1cf0e38dd7d294982235edceaa2ed203417a9cf9fc",
+        "binary_hash": "7f027d0c71d15b554e3f1399defdc0e7258939f223ab11867a13d6e829cdfc93"
+      },
+      {
+        "platform": "windows",
+        "arch": "ARM64",
+        "archive_url": "https://bin.equinox.io/a/2V9GBjXZ6y6/ngrok-v3-3.19.0-windows-arm64.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "a43f30125457551caea0200c6183205ba845d42934589987342d431c32210fb0",
+        "binary_hash": "a18521c7879b48608133a1c79c2dc5d4079f5767af6d48edfa2a12e89e77c33e"
+      },
+      {
+        "platform": "windows",
+        "arch": "64-bit",
+        "archive_url": "https://bin.equinox.io/a/Qu17rnKQvB/ngrok-v3-3.19.0-windows-amd64.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "98928177ed0d4432aad5dc411412eaff5fbed9b9ba49c6bd37cae91504703b96",
+        "binary_hash": "8cbd5f9b1be18429ebd9e3fd0fe7152682848ed00d359eea9fbdb77840b076af"
+      },
+      {
+        "platform": "windows",
+        "arch": "64-bit",
+        "archive_url": "https://bin.equinox.io/a/bjtcPNfaiTB/ngrok-v3-3.19.0-windows-amd64.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "4a6c47773a18e8769dd5683e339d0c9b46d026641c3f44917bd9cf45c9c6565a",
+        "binary_hash": "8cbd5f9b1be18429ebd9e3fd0fe7152682848ed00d359eea9fbdb77840b076af"
+      },
+      {
+        "platform": "windows",
+        "arch": "ARM64",
+        "archive_url": "https://bin.equinox.io/a/iuckSqhJ5pd/ngrok-v3-3.19.0-windows-arm64.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "8a1d0bff7d5ef9122e7cc34f036faecce51a4b15d8a2085fb9b099bb4457f399",
+        "binary_hash": "a18521c7879b48608133a1c79c2dc5d4079f5767af6d48edfa2a12e89e77c33e"
+      },
+      {
+        "platform": "windows",
+        "arch": "32-bit",
+        "archive_url": "https://bin.equinox.io/a/739VU8gVLDx/ngrok-v3-3.19.0-windows-386.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "97e864340bbafc3ae7f8c8dc7cdddba1614233643ce4b9682770c6cf6420b35f",
+        "binary_hash": "6bb0705df4c364dab7bd34ad948eda9e80b432fda288ae1b7ade36dc272c99a0"
+      },
+      {
+        "platform": "windows",
+        "arch": "32-bit",
+        "archive_url": "https://bin.equinox.io/a/42dfdEgJxGo/ngrok-v3-3.19.0-windows-386.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "dab18919b2694756ac82efc51d51440b1540507f1662cee281fa087018ec6f30",
+        "binary_hash": "6bb0705df4c364dab7bd34ad948eda9e80b432fda288ae1b7ade36dc272c99a0"
+      },
+      {
+        "platform": "linux",
+        "arch": "64-bit",
+        "archive_url": "https://bin.equinox.io/a/2dgTMJmT3uY/ngrok-v3-3.19.0-linux-amd64.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "6bb21618b1ac9ed7c16dc5189a5a4421dc87c5bbf18917ce0dc2cd0a7841aeec",
+        "binary_hash": "b52a8de1f7370c1ca554e4e8fbd920152421eb1ecd7eec2c7c72ccc7daca670e"
+      },
+      {
+        "platform": "linux",
+        "arch": "ARM64",
+        "archive_url": "https://bin.equinox.io/a/ig9xfzK35LF/ngrok-v3-3.19.0-linux-arm64.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "6331b0df29cf0179fe4cb254ef8ca1d4ba01cbcb230cc16b410b314c31ec89cb",
+        "binary_hash": "a3ddb4a21883d404a539eb3674aed093c4c298174e49f57727843f00ab9cf546"
+      },
+      {
+        "platform": "linux",
+        "arch": "mipsle",
+        "archive_url": "https://bin.equinox.io/a/hXYnkpHHSbd/ngrok-v3-3.19.0-linux-mipsle.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "df9124c4e3c7b7f8286209c2b8376d055428d1efdbe76d0678a3c661a696b9ce",
+        "binary_hash": "910722b544668bb4546d46295cac0fdd96104caeb727fcc241a3a3ba0238271b"
+      },
+      {
+        "platform": "linux",
+        "arch": "mips",
+        "archive_url": "https://bin.equinox.io/a/2DnibfqBrcZ/ngrok-v3-3.19.0-linux-mips.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "c76c6a5a22376803f888cc4f627792b2e5cb5eb4067d096361708aa435a9edd3",
+        "binary_hash": "1c657fc710909200dae0608d6844381ad088da7b84980f50007e6a378ab4a1ae"
+      },
+      {
+        "platform": "linux",
+        "arch": "mips64",
+        "archive_url": "https://bin.equinox.io/a/64G3A2iswm6/ngrok-v3-3.19.0-linux-mips64.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "ef8c6f62f44444ccb58c60bc329769e31af26585396b2023fa917c1d6e5c0815",
+        "binary_hash": "a360968b10255929396a0908308c247d77d6f886a2d54d419578189154ba33bd"
+      },
+      {
+        "platform": "linux",
+        "arch": "s390x",
+        "archive_url": "https://bin.equinox.io/a/fWoEw6wqRwt/ngrok-v3-3.19.0-linux-s390x.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "80aa360251769bcb4f251a3135671bc73c6aebcd22ec852d4d6480b7b4d55bd6",
+        "binary_hash": "431b1657069c69b2528b5b2ab4f12a189d91e45814991f46f659931969c7d877"
+      },
+      {
+        "platform": "linux",
+        "arch": "mips64le",
+        "archive_url": "https://bin.equinox.io/a/b5dZDNZerWY/ngrok-v3-3.19.0-linux-mips64le.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "3350b26382e18d7cac4aac4b1279088bb9ad81c7b7601cb516d259e1a4f6f39b",
+        "binary_hash": "4c7ba9817f9a57380f90f65d6c0c7b2b90f2bf37dd1f092e1a42db284443573e"
+      },
+      {
+        "platform": "linux",
+        "arch": "ppc64le",
+        "archive_url": "https://bin.equinox.io/a/hja9jfzSCLR/ngrok-v3-3.19.0-linux-ppc64le.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "9ed0444e1193b7b1a56de48366b5a5a8625bac997b95789bfedcd3a4b9005537",
+        "binary_hash": "4a7134a2ac69266522306a7d71e346f1938d12d7e0b806cd0569eb288bdd0dc3"
+      },
+      {
+        "platform": "linux",
+        "arch": "64-bit",
+        "archive_url": "https://bin.equinox.io/a/3LDRf7RJF8Y/ngrok-v3-3.19.0-linux-amd64.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "fb5af8eb6d6bb378b2398594bb5744579598a9ef5a37a8010e92e53c6a937d98",
+        "binary_hash": "b52a8de1f7370c1ca554e4e8fbd920152421eb1ecd7eec2c7c72ccc7daca670e"
+      },
+      {
+        "platform": "linux",
+        "arch": "ARM64",
+        "archive_url": "https://bin.equinox.io/a/2XePJJCp1nE/ngrok-v3-3.19.0-linux-arm64.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "59e4364ef14e17eba52914afcac9ce340fec37c7db55966a55caa718f7817b0e",
+        "binary_hash": "a3ddb4a21883d404a539eb3674aed093c4c298174e49f57727843f00ab9cf546"
+      },
+      {
+        "platform": "linux",
+        "arch": "mips64",
+        "archive_url": "https://bin.equinox.io/a/9czuXr2mXTy/ngrok-v3-3.19.0-linux-mips64.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "fe7ec802a1c9748d048629010f43dd4466c40e3ed776adc2a38fc942999f879e",
+        "binary_hash": "a360968b10255929396a0908308c247d77d6f886a2d54d419578189154ba33bd"
+      },
+      {
+        "platform": "linux",
+        "arch": "mips",
+        "archive_url": "https://bin.equinox.io/a/7s9rWbaQDoU/ngrok-v3-3.19.0-linux-mips.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "6cbff9865c777121a7266cb979ae2e4618eb344c0d8b224f91c6d2a197cd5d01",
+        "binary_hash": "1c657fc710909200dae0608d6844381ad088da7b84980f50007e6a378ab4a1ae"
+      },
+      {
+        "platform": "linux",
+        "arch": "mips64le",
+        "archive_url": "https://bin.equinox.io/a/9CPRw2K1hNo/ngrok-v3-3.19.0-linux-mips64le.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "72e555908ffe1b5b1d8af34f04d23ca991aeab2188ccd40e1f7df3cb54ff7311",
+        "binary_hash": "4c7ba9817f9a57380f90f65d6c0c7b2b90f2bf37dd1f092e1a42db284443573e"
+      },
+      {
+        "platform": "linux",
+        "arch": "ppc64le",
+        "archive_url": "https://bin.equinox.io/a/jF72WJNakLf/ngrok-v3-3.19.0-linux-ppc64le.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "420c5f17231f2809b904598e4fd8ad4a4573680d7548b69c8c31c0e709c671fe",
+        "binary_hash": "4a7134a2ac69266522306a7d71e346f1938d12d7e0b806cd0569eb288bdd0dc3"
+      },
+      {
+        "platform": "linux",
+        "arch": "s390x",
+        "archive_url": "https://bin.equinox.io/a/3Fsdjxrv8FV/ngrok-v3-3.19.0-linux-s390x.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "7c71ff6bebeefac46d19cfcfbab2b549596b2a49ed40bc4677ecefd54f8af2da",
+        "binary_hash": "431b1657069c69b2528b5b2ab4f12a189d91e45814991f46f659931969c7d877"
+      },
+      {
+        "platform": "linux",
+        "arch": "mipsle",
+        "archive_url": "https://bin.equinox.io/a/mAYg4aeviTF/ngrok-v3-3.19.0-linux-mipsle.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "01c67902043fe1b9b0971c961c1ae3ef18a4451aee04d66418c26da1edb70198",
+        "binary_hash": "910722b544668bb4546d46295cac0fdd96104caeb727fcc241a3a3ba0238271b"
+      },
+      {
+        "platform": "linux",
+        "arch": "32-bit",
+        "archive_url": "https://bin.equinox.io/a/bWeNyp94Pon/ngrok-v3-3.19.0-linux-386.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "5c40709516b55cd5b1eed7a673747fd474c1b11cab932f0cb62ee9763c5d718e",
+        "binary_hash": "331873416f325eb5601ce7679ec08e67b682359b2ab24e8a3b02fd598911f086"
+      },
+      {
+        "platform": "linux",
+        "arch": "32-bit",
+        "archive_url": "https://bin.equinox.io/a/5A4nixSzP2q/ngrok-v3-3.19.0-linux-386.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "f2f8aab3f24d811ae44d7f9f33b96c96bd275d52db935b73c9cc6abfc8799635",
+        "binary_hash": "331873416f325eb5601ce7679ec08e67b682359b2ab24e8a3b02fd598911f086"
+      },
+      {
+        "platform": "linux",
+        "arch": "ARM",
+        "archive_url": "https://bin.equinox.io/a/6wujdKYbbDG/ngrok-v3-3.19.0-linux-arm.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "432279bfafdb8fbc6de6e3c603021d4bee25ed3e85d1d56e74e85cea90c48a04",
+        "binary_hash": "8dc36fff4dd733d6a1298ee42c957d91306a3625e8488eb0f3856623bc5f69e1"
+      },
+      {
+        "platform": "linux",
+        "arch": "ARM",
+        "archive_url": "https://bin.equinox.io/a/6SjSPJwvc8p/ngrok-v3-3.19.0-linux-arm.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "b2bbee414f0b981072a304342b7649f002c42e18943a987b0d99660883452510",
+        "binary_hash": "8dc36fff4dd733d6a1298ee42c957d91306a3625e8488eb0f3856623bc5f69e1"
+      },
+      {
+        "platform": "linux",
+        "arch": "PPC64",
+        "archive_url": "https://bin.equinox.io/a/eLKnUpwkodR/ngrok-v3-3.19.0-linux-ppc64.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "403cd0cb68480e176a88e1079e575fec751c0c2c3f3bd3329c6e58fd27100790",
+        "binary_hash": "fdad0d4ed4735ed0771bc266b44ed7e9471316ca5625a59005e29846f74d6617"
+      },
+      {
+        "platform": "linux",
+        "arch": "PPC64",
+        "archive_url": "https://bin.equinox.io/a/7xCywo9js8f/ngrok-v3-3.19.0-linux-ppc64.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "c8af07155809e6c4a526fa1befe63771f5be94f588b3251de78084fce91c0ec7",
+        "binary_hash": "fdad0d4ed4735ed0771bc266b44ed7e9471316ca5625a59005e29846f74d6617"
+      },
+      {
+        "platform": "freebsd",
+        "arch": "64-bit",
+        "archive_url": "https://bin.equinox.io/a/8stygJFg3pg/ngrok-v3-3.19.0-freebsd-amd64.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "20119dadd480b71624958eadfb33c483c5b6cc004e07da2407db368cbdeba37d",
+        "binary_hash": "46d8b1fa06ee5a9bbce858beb5dbfbb08aa0c2e3231c4388e8f32c957301df0e"
+      },
+      {
+        "platform": "freebsd",
+        "arch": "64-bit",
+        "archive_url": "https://bin.equinox.io/a/kPWAShqPSgr/ngrok-v3-3.19.0-freebsd-amd64.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "ed811694a4db387d595da25cce733c5d244f653c39aa96f8bb02c00e6a37488a",
+        "binary_hash": "46d8b1fa06ee5a9bbce858beb5dbfbb08aa0c2e3231c4388e8f32c957301df0e"
+      },
+      {
+        "platform": "freebsd",
+        "arch": "32-bit",
+        "archive_url": "https://bin.equinox.io/a/g9rodM9Rhdm/ngrok-v3-3.19.0-freebsd-386.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "2f132bcd31018fec6ce7ea48ff88248cb42e3693d06f68c450b6bf9aa115e090",
+        "binary_hash": "ba1c530d38e57aae5de21bd55f0ae2c6e4a2908ce9f15dc27f906863ee98c413"
+      },
+      {
+        "platform": "freebsd",
+        "arch": "32-bit",
+        "archive_url": "https://bin.equinox.io/a/azGxQ82mSHo/ngrok-v3-3.19.0-freebsd-386.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "903f7e4b934bdd52dc01a62e1341a4f256f1fe359b70740612462858f7036f95",
+        "binary_hash": "ba1c530d38e57aae5de21bd55f0ae2c6e4a2908ce9f15dc27f906863ee98c413"
+      },
+      {
+        "platform": "freebsd",
+        "arch": "ARM",
+        "archive_url": "https://bin.equinox.io/a/c3ZhpBs1cX7/ngrok-v3-3.19.0-freebsd-arm.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "be585049e68d591346e11294379169feb1bc682a0d4e4d39a1f8c5d4633bcbea",
+        "binary_hash": "6784344ca9ba6e98a6e1df694dfb8d3fdfc9af24315275d8423cccf323f59da0"
+      },
+      {
+        "platform": "freebsd",
+        "arch": "ARM",
+        "archive_url": "https://bin.equinox.io/a/a4K7JPkDmoc/ngrok-v3-3.19.0-freebsd-arm.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "73e11caa0a6cd5f6c926fde6a8a801c6c1e997bbe5819d04fdf962046e3b9a87",
+        "binary_hash": "6784344ca9ba6e98a6e1df694dfb8d3fdfc9af24315275d8423cccf323f59da0"
+      },
+      {
+        "platform": "solaris",
+        "arch": "64-bit",
+        "archive_url": "https://bin.equinox.io/a/6SnT3GJ4C3X/ngrok-v3-3.19.0-solaris-amd64.tar.gz",
+        "hash_type": "SHA256",
+        "archive_hash": "ac80381a52016f028f9ad82d6e5b44be3e1dc8472692bbc7fd60486d97f20502",
+        "binary_hash": "42d717fecf8259aff18ab4b33d40d280f47c061ae8bdbe42449303f28cf3e512"
+      },
+      {
+        "platform": "solaris",
+        "arch": "64-bit",
+        "archive_url": "https://bin.equinox.io/a/4Jzq7R4DsQA/ngrok-v3-3.19.0-solaris-amd64.zip",
+        "hash_type": "SHA256",
+        "archive_hash": "f05e4b404b2681ca6ece0743e950fed9cbc22aec8e8b1519722c828b9141bdca",
+        "binary_hash": "42d717fecf8259aff18ab4b33d40d280f47c061ae8bdbe42449303f28cf3e512"
+      }
+    ]
   }
 ]
