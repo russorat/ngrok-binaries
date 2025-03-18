@@ -81,7 +81,7 @@ def fetchReleaseDates():
     URL = "https://ngrok.com/docs/agent/changelog/"
     page = requests.get(URL)
     soup = BeautifulSoup(page.content, "html.parser")
-    results = soup.find_all("h3", class_="anchor anchorWithStickyNavbar_cCmd")
+    results = soup.find_all("h3", class_="anchor anchorWithStickyNavbar_GhIE")
     releases = {}
     for result in results:
         version = result.text.strip().split()[2]
@@ -93,6 +93,7 @@ def fetchReleaseDates():
             the_date = result.text.strip().split('[')[2].split(']')[0]
         releases[version] = the_date
     releases['3.14.1'] = '2024-08-22'
+    releases['3.21.0'] = '2025-03-13'
     releases['3.0.0-rc1'] = ''
     return releases
 
